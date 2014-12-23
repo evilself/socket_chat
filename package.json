@@ -1,0 +1,9 @@
+{
+  "name": "chat",
+  "version": "0.0.1",
+  "description": "My first Node/Socket.IO App",
+  "dependencies": {
+    "mime": "^1.2.11",
+    "socket.io": "0.9.6"
+  }
+}

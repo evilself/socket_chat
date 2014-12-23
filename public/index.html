@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+        <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    </head>
+    <body>
+        <div class="col-lg-12 col-sm-12">
+            <div id="content">
+                <label>Current Room</label>
+                <div id="room" style="width:100px" class="panel">
+                </div>
+                
+                <label>Current Room List</label>
+                <div id="room-list" style="width:100px" class="panel">
+                </div>
+                
+                <label>Messages</label>
+                <div id="messages" style="height:300px; width:600px" class="well well-sm" >
+                </div>
+            
+                <div class="well" style="margin-top:30%">
+                    <form id="messageForm">
+                        <input id="field" class="form-control form-inline" style="width:500px"/>
+                        <input type="submit" value="Send"/>
+                    </form>
+                </div>              
+                
+            </div>
+        </div>
+        
+        <script src="/socket.io/socket.io.js" type="text/javascript" ></script>
+        <script src="./js/jquery-1.11.0.js" type="text/javascript" ></script>
+        <script src="./js/chat.js" type="text/javascript" ></script>
+        <script src="./js/chat_ui.js" type="text/javascript" ></script>    
+        
+    </body>
+</html>

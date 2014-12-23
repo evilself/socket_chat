@@ -1,0 +1,99 @@
+/* Author: BorisM   */
+/* Date: 11.21.2014 */
+/********************************** Custom CSS for wiki ABS *****************************************************/
+
+/* Buttons********************************************************************************************************/
+
+.loginButton {
+	color:red !important;
+}
+
+.logoutButton {
+	color:purple !important;
+	cursor:pointer !important;
+}
+
+.registerButton {
+	color:green !important;
+}
+
+.commonButton {
+	margin-bottom:5px !important;
+	padding-top:1px !important;
+	padding-bottom: 1px !important;
+	background-color:#C9C9D5 !important;
+	color:#0066CC !important;
+	border-color:#C9C9D5" !important;
+}
+
+.viewButton {
+	margin-bottom:5px !important;
+	padding-top:1px !important;
+	padding-bottom: 1px !important;
+	background-color:#CCFF99 !important;
+	color:#0066CC !important;
+	border-color:#CCFF99 !important;
+}
+
+.wikiButton {
+	margin-bottom:5px !important;
+	padding-top:1px !important;
+	padding-bottom: 1px !important;
+}
+
+.cancelButton {
+	padding-top:1px !important;
+	padding-bottom: 1px !important; 
+	background-color:#FFE6E6 !important;
+	color:#0066CC !important;
+	border-color:#C9C9D5 !important;
+}
+
+.searchButton {
+	margin:5px !important;
+	background-color:#CCFF99 !important;
+}
+
+.ajaxRegisterButton {
+	background-color:#C9C9D5 !important;
+	color:#0066CC !important;
+	border-color:#C9C9D5 !important;
+	margin-right:17% !important;
+}
+
+/*Input controls****************************************************************************************************/
+
+.searchFormControl {
+	color:blue !important;
+	font-height:120% !important;
+	height:45px !important;
+	border-radius:10px !important;
+}
+
+/* Output ***********************************************************************************************************/
+.invalid { 
+	color: #FFE6E6; 
+}
+
+.errorLogin {
+	width:50% !important;
+	color:#FFE6E6 !important;
+}
+
+.smallTopBottomMargin {
+	padding-top: 10% !important;
+	padding-bottom: 10% !important;
+}
+
+.successOutput {
+	color: #CCFF99;
+	font-size: 1.5em;
+}
+
+/*Ta1bles************************************************************************************************************/
+
+.productTable_header {
+	color:#C9C9D5 !important;
+	font-weight:bold !important;
+	font-size:1.2em !important;
+}
